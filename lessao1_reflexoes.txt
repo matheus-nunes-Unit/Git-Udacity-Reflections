@@ -1,0 +1,38 @@
+1)Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+	O comando diff ira mostrar as linhas que possuem diferenças entre duas versoes dos arquivos,com isso, ao sabermos as linhas do arquivo com a versao mais recente que possuem diferença em relacao ao arquivo anterior, nos checamos especificamente essas linhas procurando algum erro, facilitando assim a busca de determinado bug.
+
+2)Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+	É importante ter acesso as versoes antigas de determinado arquivo, pois dessa maneira, caso uma nova versao desse arquivo tenha algum problema, será possivel realizar a comparacao de ambos os arquivos(versao antiga e nova)para verificar de maneira mais facil os locais onde foram realizadas as alteracoes, e assim achar mais facilmente o codigo que esta resultando no erro. 
+
+3)Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+	-Salvamento Automatico
+		*Pros
+			-Nao ocorre o risco de esquecer de realizar a criacao do commit quando o mesmo ja poder ser realizado.
+		*Contra
+			-Sao realizados muitos commits fora de hora, com alteracoes muito insignificantes entre eles.
+
+	-Criacao Manual
+		*Pros
+			-Os commits serao realizados somente no momento correto, evitando que sejam criados commits em excesso sem necessidade.
+		*Contras
+			-Ocorre o risco de esquecer de realizar a criacao do commit quando o mesmo ja poder ser realizado.
+
+4)Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+ 	Pois cada sistema possui um tipo de arquivos especificos que ira tratar. O git é focado mais na aréa de programacao, enquanto o google docs é focado na area de arquivos de textos.
+
+5)Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+	O comando git log ira mostrar todos os commits que foram realizados em um determinado projeto, mostrando eles com uma descricao do que foi realizado de mudanças e o horario em que foi realizado, facilitando assim em verificar as diferentes versoes do arquivo com o decorrer do projeto. Ja o comando diff, quando passado o id de dois diferentes commits, ira mostrar as linhas que foram adicionadas ou removidas entre os diferentes commits
+
+6)De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+	Com o controle de versao, caso alguma ferramenta nova quando inserida resulte em algum bug, sera possivel retornar a um commit anterior para assim verificarmos a ultima versao que nao possuia o respectivo bug.
+
+7)Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+	
+	Para me ajudar na alteracao de arquivos. Caso eu necessite voltar para uma versao anterior, isso sera vem mais facil.
+	

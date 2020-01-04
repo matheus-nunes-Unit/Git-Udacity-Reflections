@@ -1,0 +1,27 @@
+1)O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+	Ao inciar um repositorio o mesmo inicia sem commits e com seus arquivos untracked. É necessario isso para poder armazenar os arquivos e sesu commits.
+
+2)Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+	A area de preparacao, é uma area intermediaria que nao ira alterar em nada o repositorio ou o diretorio de trabalho, ajudando na organizacao de arquivos que serao ou nao adicionados no commit e no ratreio dos mesmo.
+
+3)Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+	A ideia e que sempre que na area de preparacao tenha sido adicionado um arquivo novo devido a uma alteracao logica, seja reliazado o commit do mesmo, para somente apos ser realizada a adicao de outro arquivo na area de preparacao, deixando assim os commits mais organziados.
+
+4)Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+	
+	Sao uteis em situacao que nao se deseja alterar a versao original do arquivos, podendo inserir ferramentas novas no programa sem necessariamente alterar o programa original.
+
+5)Como os diagramas ajudam a visualizar a estrutura de branches?
+
+	Ajudam demonstrando quais commits podem ser acessados ou nao , alem de ajudar a perceber os diversos branchs(e seus commits) existentes.
+
+6)Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+	
+	Resulta na mesclagem do ultimo commit de cada branch, sendo representado dessa maneira para indentificar que o resultado do merge veio dos dois ultimos commits de cada branch especificado como paramtro no momento da chamada do merge.
+
+7)Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+	A principal vantagem da mesclagem automatica e que ela polpa tempo do desenvolvedor, porem sua desvantagens sao os possiveis erros de mesclagem pelo fato de em algumas situacoes o git nao saber qual linha de codigo adicionar. Ja as vantagens da meclagem manual é a menor probabilidade de existir erros de mesclagem, e a desvantagem e o grande trabalho manual para ser realizada a mesclagem.
+	

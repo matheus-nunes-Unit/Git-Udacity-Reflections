@@ -1,0 +1,4 @@
+1) Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+  O repositorio remoto pode ser usado quando o desenvolvedor sente que ja pode compártilhar suas ideias ou quando se trata de um projeto
+  a ser desenvolvido por mais de uma pessoa.
+
